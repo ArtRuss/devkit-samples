@@ -105,6 +105,7 @@ device.registers.set_vibration_mode(VibrationMode.MANUAL)
 device.registers.set_vibration_frequency(200)
 device.registers.set_vibration_intensity(1.0)
 sleep(3)
+device.stop_vibration()
 
 # LED Low-Level API
 device.registers.set_led_mode(LedMode.INDIVIDUAL_MANUAL)
